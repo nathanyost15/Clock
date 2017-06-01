@@ -1,0 +1,1 @@
+csc /target:library /out:ClockLib.dll Time.cs
