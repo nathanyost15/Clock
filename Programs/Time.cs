@@ -15,6 +15,7 @@ namespace ClockLib
         {
             time = DateTime.Now;
             hour = (time.Hour > 12) ? time.Hour - 12 : time.Hour;
+            hour = (hour == 0) ? hour + 12 : hour;
             minute = time.Minute;
             second = time.Second;
             ms = time.Millisecond;
@@ -45,6 +46,7 @@ namespace ClockLib
         {
             return period;
         }
+
         public string toString()
         {
             string min = "" + minute;
