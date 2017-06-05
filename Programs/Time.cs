@@ -3,7 +3,7 @@ namespace ClockLib
 {
     public class Time
     {
-        private DateTime time;
+		private DateTime time;
         private int hour, minute, second, ms;
         private string period;
         public Time()
