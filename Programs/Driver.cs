@@ -15,7 +15,6 @@ public class Driver
                     half();
                     break;
                 case 0:
-                case 37:
                     hourly(time);
                     break;
             }          
